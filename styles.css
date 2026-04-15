@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Graphik LC Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --color-primary: #248567;
+  --color-secondary: #D6CEFF;
+  --color-accent: #A496FF;
+  --color-dark: #242424;
+  --color-light: #F8F5F3;
+  --color-surface: #ffffff;
+  --color-pd-gray: #6B7280;
+  --color-pd-light-gray: #9CA3AF;
+
+  --color-brand-50: #F2FBF9;
+  --color-brand-100: #D6F2E8;
+  --color-brand-200: #AEE4D0;
+  --color-brand-300: #7CD4B3;
+  --color-brand-400: #4EB593;
+  --color-brand-500: #248567;
+  --color-brand-600: #1C6A52;
+  --color-brand-700: #165240;
+  --color-brand-800: #124234;
+  --color-brand-900: #0F362B;
+
+  --color-emerald: #248567;
+  --color-emerald-40: #87B5A7;
+  --color-emerald-30: #B9CDC7;
+  --color-emerald-20: #CDD5D9;
+  --color-emerald-10: #E7F6EE;
+
+  --color-amethyst-40: #A496FF;
+  --color-amethyst-30: #C5BCFF;
+  --color-amethyst-20: #D6CEFF;
+  --color-amethyst-10: #EEE8FF;
+
+  --color-coral: #FF8B6C;
+  --color-coral-40: #FF8B6C;
+  --color-coral-30: #FFB3A6;
+  --color-coral-20: #FFC9BF;
+  --color-coral-10: #FFEAE7;
+
+  --color-sand-30: #D4C7B1;
+  --color-sand-20: #EEE9E1;
+  --color-sand-10: #F8F5F3;
+
+  --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 15px rgba(36, 133, 103, 0.3);
+
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  --font-size-h1: 32px;
+  --font-size-h2: 24px;
+  --font-size-h3: 28px;
+
+  --transition-duration-150: 150ms;
+  --transition-duration-200: 200ms;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
